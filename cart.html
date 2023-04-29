@@ -5,33 +5,72 @@
   <link rel="icon" type="logo1.png" href="images/title_logo2.png" sizes="64x64" />
   <title>My Cart</title>
   <link href="css/cart.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/7fad9b0b41.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body>
 
-  <div class="header">
-    <a href="index.html"><img src="images/logo1.png" alt="QuickMart" />
-    <!-- <p>Delivery Time</p> -->
-  </div>
-
-  <div class="topnav">
-    <a href="#">Home</a>
-    <a class="active" href="cart.html" style="float:right">My Cart<p id="count">0</p></a>
-    <a href="#" style="float:right">Sign Up</a>
-    <a href="/login1.html" style="float:right">Log In</a>
-  </div>
+  <!-- --------------header-------------- -->
+  <div id="header">
+    <div class="container">
+        <img src="images/logo1.png" alt="logo" class="logo">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Log In</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="cart.html">
+                    <div class="cart">
+                      <div id="cartAmount" class="cartAmount">0</div>
+                      <i class='bx bx-cart'></i>
+                    </div>
+                  </a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
 
   <div class="container">
     <div id="root"></div>
     <div class="bar">
         <div class="head"><p>My Cart</p></div>
-        <div id="cartItem">Your Cart is Empty</div>
-        <div class="foot">
+        <div id="shopping-cart">Your Cart is Empty</div>
+        <!-- <div class="foot">
             <h3>Total</h3>
-            <h2 id="total">₹0.00</h2>
+            <h2 id="total">₹0.00</h2> -->
+        <div id="label" class="text-center"></div>
         </div>
     </div>
   </div>
 
+   <!-- --------------Contact--------------
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+            </div>
+            <div class="contact-right social-icons">
+                <h1 class="sub-title">Follow Us</h1>
+                <p>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; QuickMart.in | All rights reserved.<br>Build with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>  -->
+
 </body>
+<script src="vegetable_data.js"></script>
+<script src="tea_data.js"></script>
+<script src="cart.js"></script>
 </html>
