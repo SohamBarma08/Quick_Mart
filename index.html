@@ -7,6 +7,7 @@
     <title>QuickMart</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/7fad9b0b41.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <!-- --------------header-------------- -->
@@ -15,12 +16,17 @@
             <img src="images/logo1.png" alt="logo" class="logo">
             <nav>
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#">Shops</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#local-shops">Shops</a></li>
                     <li><a href="login1.html">Log In</a></li>
-                    <li><a href="#">Sign Up</a></li>
-                    <li><a href="#">Wishlist</a></li>
-                    <li><a href="cart.html"><i class="fa-solid fa-terminal"></i> My Cart </a></li>
+                    <li><a href="login1.html">Sign Up</a></li>
+                    <!-- <li><a href="#">Wishlist</a></li> -->
+                    <li><a href="cart.html">
+                        <div class="cart">
+                          <div id="cartAmount" class="cartAmount">0</div>
+                          <i class='bx bx-cart'></i>
+                        </div>
+                      </a></li>
                 </ul>
             </nav>
         </div>
@@ -34,11 +40,11 @@
                     <a href="vegetable.html"><img class="itemImg" src="images/slice/Slice-1.avif" />
                         <a href="tea.html"><img class="itemImg" src="images/slice/Slice-2.avif" />
                         <a href="snacks.html"><img class="itemImg" src="images/slice/Slice-5.avif" />
-                        <a href="cookies.html"><img class="itemImg" src="images/slice/Slice-4.avif" />
-                        <a href=""><img class="itemImg" src="images/slice/Slice-3.avif" />
-                        <a href=""><img class="itemImg" src="images/slice/Slice-6.avif" />
-                        <a href=""><img class="itemImg" src="images/slice/Slice-7.avif" />
-                        <a href=""><img class="itemImg" src="images/slice/Slice-8.avif" />
+                        <a href="Bakery.html"><img class="itemImg" src="images/slice/Slice-4.avif" />
+                        <a href="Breakfast and Instant Food.html"><img class="itemImg" src="images/slice/Slice-3.avif" />
+                        <a href="Dairy,Bread&Eggs.html"><img class="itemImg" src="images/slice/Slice-6.avif" />
+                        <a href="mashala oil and more.html"><img class="itemImg" src="images/slice/Slice-7.avif" />
+                        <a href="atta rice&dal.html"><img class="itemImg" src="images/slice/Slice-8.avif" />
                         <a href=""><img class="itemImg" src="images/slice/Slice-9.avif" />
                         <a href=""><img class="itemImg" src="images/slice/Slice-10.avif" />
                         <a href=""><img class="itemImg" src="images/slice/Slice-11.avif" />
@@ -50,20 +56,19 @@
                         <a href=""><img class="itemImg" src="images/slice/Slice-17.avif" />
                         <a href=""><img class="itemImg" src="images/slice/Slice-18.avif" />
                 </div>
-                <div class="column-right">
+                <div class="column-right" id="local-shops">
                     <img src="images/Local_Shops.jpg" alt="Shops">
                     <ul>
                         <li><a class="active" href="#Local Shop">Local Shops</a></li>
-                        <li><a href="pritam_shop.html">Pritam's Shop</a></li>
-                        <li><a href="#Kajali Variety Store">Kajali Variety Store</a></li>
-                        <li><a href="#Mondal Pharmacy">Mondal Pharmacy</a></li>
-                        <li><a href="#Snack Track Shop">Snack Track Shop</a></li>
-                        <li><a href="#Bhratree Store">Bhratree Store</a></li>
-                        <li><a href="#Mohua Stores">Mohua Stores</a></li>
-                        <li><a href="#Laxmi Vander">Laxmi Vander</a></li>
-                        <li><a href="#Modern Store">Modern Store</a></li>
-                        <li><a href="#Cosmo Bazar">Cosmo Bazar</a></li>
-                        <li><a href="#Sonali Stores">Sonali Stores</a></li>
+                        <li><a href="local_shop.html">Pritam's Shop</a></li>
+                        <li><a href="local_shop.html">Kajali Variety Store</a></li>
+                        <li><a href="local_shop.html">Snack Track Shop</a></li>
+                        <li><a href="local_shop.html">Bhratree Store</a></li>
+                        <li><a href="local_shop.html">Mohua Stores</a></li>
+                        <li><a href="local_shop.html">Laxmi Vander</a></li>
+                        <li><a href="local_shop.html">Modern Store</a></li>
+                        <li><a href="local_shop.html">Cosmo Bazar</a></li>
+                        <li><a href="local_shop.html">Sonali Stores</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,7 +81,7 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Us</h1>
-                    <p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-envelope"></i>quickmart.cyou@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i>0123456789</p>
                 </div>
                 <div class="contact-right social-icons">
