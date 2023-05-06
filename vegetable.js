@@ -10,7 +10,7 @@ let generateShop = () => {
         <div class="box" id=${id}>
         <img src=${img} alt=${name}>
         <span>${name}</span>
-        <h3 class="price">${price}<span>/kg</span></h3>
+        <h3 class="price">₹ ${price}<span>/kg</span></h3>
         <i class='bx bx-cart' onclick="increment(${id})" id="cart"></i>
         <i class='bx bx-heart' onclick="wishlist()" id="wishlist"></i>
     </div>

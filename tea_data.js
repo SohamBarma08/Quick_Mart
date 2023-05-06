@@ -1,4 +1,4 @@
-let shopTeaData = [
+let shopItemsData = [
     {
       id: "TataTeaGoldTea",
       name: "Tata Tea Gold Tea",
@@ -6,7 +6,7 @@ let shopTeaData = [
       img: "images/tea/Tata_Tea_Gold_Tea.avif",
     },
     {
-      id: "BRUInstantCoffee(50g)",
+      id: "BRUInstantCoffee",
       name: "BRU Instant Coffee (50 g)",
       price: 260,
       img: "images/tea/BRU_Instant_Coffee.avif",
@@ -18,43 +18,43 @@ let shopTeaData = [
       img: "images/tea/Lipton_Honey_Lemon_Green_Tea_Bags.avif",
     },
     {
-      id: "Nescafe Classic Instant Coffee",
+      id: "NescafeClassicInstantCoffee",
       name: "Nescafe Classic Instant Coffee",
       price: 170,
       img: "images/tea/Nescafe_Classic_Instant_Coffee.avif",
     },
     {
-      id: "PediaSure Vanilla Delight Health Drink Pack of 2",
+      id: "PediaSureVanillaDelightHealthDrinkPackof",
       name: "PediaSure Vanilla Delight Health Drink Pack of 2",
       price: 150,
       img: "images/tea/PediaSure_Vanilla_Delight_Health_Drink.avif",
     },
     {
-      id: "Horlicks Chocolate Delight Health Drink",
+      id: "HorlicksChocolateDelightHealthDrink",
       name: "Horlicks Chocolate Delight Health Drink",
       price: 250,
       img: "images/tea/Horlicks_Chocolate_Delight_Health_Drink.avif",
     },
     {
-      id: "Complan Royale Chocolate Nutrition and Health Drink",
+      id: "ComplanRoyaleChocolateNutritionandHealthDrink",
       name: "Complan Royale Chocolate Nutrition and Health Drink",
       price: 490,
       img: "images/tea/Complan-Royale-Chocolate-Nutrition-and-Health-Drink.avif",
     },
     {
-      id: "Horlicks Women's Plus Caramel Health Drink (Jar)",
+      id: "HorlicksWomensPlusCaramelHealthDrink",
       name: "Horlicks Women's Plus Caramel Health Drink (Jar)",
       price: 320,
       img: "images/tea/Horlicks-Women's-Plus-Caramel-Health-Drink-(Jar).avif",
     },
     {
-      id: "Cadbury Bournvita Chocolate Health Drink",
+      id: "CadburyBournvitaChocolateHealthDrink",
       name: "Cadbury Bournvita Chocolate Health Drink",
       price: 370,
       img: "images/tea/Cadbury-Bournvita_Chocolate_Health_Drink.avif",
     },
     {
-      id: "Raw Pressery Aloe Vera Lemonade Drink",
+      id: "RawPresseryAloeVeraLemonadeDrink",
       name: "Raw Pressery Aloe Vera Lemonade Drink",
       price: 400,
       img: "images/tea/Raw_Pressery_Aloe_Vera_Lemonade_Drink.webp",
