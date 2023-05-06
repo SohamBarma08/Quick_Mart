@@ -3,14 +3,14 @@ let shop = document.getElementById("products");
 let basket = JSON.parse(localStorage.getItem("tea_data")) || [];
 
 let generateShop = () => {
-  return (shop.innerHTML = shopTeaData.map((x) => {
+  return (shop.innerHTML = shopItemsData.map((x) => {
     let { id, name, price, img } = x;
     let search = basket.find((x) => x.id === id) || [];
     return `
         <div class="box" id=${id}>
         <img src=${img} alt=${name}>
         <span>${name}</span>
-        <h3 class="price">${price}</h3>
+        <h3 class="price">₹ ${price}</h3>
         <i class='bx bx-cart' onclick="increment(${id})" id="cart"></i>
         <i class='bx bx-heart' onclick="wishlist()" id="wishlist"></i>
     </div>
