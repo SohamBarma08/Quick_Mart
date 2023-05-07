@@ -109,21 +109,3 @@ let shopItemsData = [
       img: "images/tea/Yakult_Probiotic_Health_Drink.avif",
     },
 ];
-
-
-
-
-
-
-
-
-//     <div class="box">
-//         <img src="images/tea/Sunfeast Strawberry Milkshake.avif" alt="potato">
-//         <span>Sunfeast Strawberry Milkshake</span>
-//         <h3 class="price">₹37<span>/180ml</span>
-//             <h3>
-//                 <i class='bx bx-cart'></i>
-//                 <i class='bx bx-heart'></i>
-//     </div>  
-// </div>
-// </section>
