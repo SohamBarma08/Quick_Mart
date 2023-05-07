@@ -62,7 +62,7 @@ let shopItemsData = [
     {
       id: "Greenchili",
       name: "Green Chili",
-      price: 20,
+      price: 100,
       img: "images/vegetable/greenchili.avif",
     },
     {
@@ -71,49 +71,51 @@ let shopItemsData = [
       price: 20,
       img: "images/vegetable/Uchhe.avif",
     },
+
+    {
+      id: "Orange",
+      name: "Orange",
+      price: 250,
+      img: "images/vegetable/Orange.avif",
+    },
+    {
+      id: "Blueberry",
+      name: "Blueberry",
+      price: 1999,
+      img: "images/vegetable/Blueberry.avif",
+    },
+    {
+      id: "Fuji Apple",
+      name: "Fuji Apple",
+      price: 490,
+      img: "images/vegetable/FujiApple.avif",
+    },
+    {
+      id: "Kimia Dates",
+      name: "Kimia Dates",
+      price: 400,
+      img: "images/vegetable/KimiaDates.avif",
+    },
+    {
+      id: "Potol",
+      name: "Potol",
+      price: 40,
+      img: "images/vegetable/potol.avif",
+    },
+    {
+      id: "Pumpkin",
+      name: "Pumpkin",
+      price: 30,
+      img: "images/vegetable/pumpkin.avif",
+    },
   ];
 
 
-//             <div class="box">
-//                 <img src="images/vegetable/mushroom.avif" alt="potato">
-//                 <span>Mushroom</span>
-//                 <h3 class="price">₹75<span>/200g</span>
-//                     <h3>
-//                         <i class='bx bx-cart'></i>
-//                         <i class='bx bx-heart'></i>
-//             </div>
 
 //             <div class="box">
 //                 <img src="images/vegetable/raw banana.avif" alt="potato">
 //                 <span>Raw Banana</span>
 //                 <h3 class="price">₹80<span>/5 piece</span>
-//                     <h3>
-//                         <i class='bx bx-cart'></i>
-//                         <i class='bx bx-heart'></i>
-//             </div>
-
-//             <div class="box">
-//                 <img src="images/vegetable/potol.avif" alt="potato">
-//                 <span>Potol</span>
-//                 <h3 class="price">₹40<span>/kg</span>
-//                     <h3>
-//                         <i class='bx bx-cart'></i>
-//                         <i class='bx bx-heart'></i>
-//             </div>
-
-//             <div class="box">
-//                 <img src="images/vegetable/pumpkin.avif" alt="potato">
-//                 <span>Pumpkin</span>
-//                 <h3 class="price">₹30<span>/kg</span>
-//                     <h3>
-//                         <i class='bx bx-cart'></i>
-//                         <i class='bx bx-heart'></i>
-//             </div>
-
-//             <div class="box">
-//                 <img src="images/vegetable/Kimia Dates - Packet (Khajur).avif" alt="potato">
-//                 <span>Kimia Dates</span>
-//                 <h3 class="price">₹200<span>/500g</span>
 //                     <h3>
 //                         <i class='bx bx-cart'></i>
 //                         <i class='bx bx-heart'></i>
@@ -150,24 +152,6 @@ let shopItemsData = [
 //                 <img src="images/vegetable/Pomegranate (Bedana).avif" alt="potato">
 //                 <span>Pomegranate</span>
 //                 <h3 class="price">₹150<span>/2 piece</span>
-//                     <h3>
-//                         <i class='bx bx-cart'></i>
-//                         <i class='bx bx-heart'></i>
-//             </div>
-
-//             <div class="box">
-//                 <img src="images/vegetable/Fuji Apple.avif" alt="potato">
-//                 <span>Fuji Apple</span>
-//                 <h3 class="price">₹200<span>/4 piece</span>
-//                     <h3>
-//                         <i class='bx bx-cart'></i>
-//                         <i class='bx bx-heart'></i>
-//             </div>
-
-//             <div class="box">
-//                 <img src="images/vegetable/Blueberry.avif" alt="potato">
-//                 <span>Blueberry</span>
-//                 <h3 class="price">₹290<span>/100g</span>
 //                     <h3>
 //                         <i class='bx bx-cart'></i>
 //                         <i class='bx bx-heart'></i>
