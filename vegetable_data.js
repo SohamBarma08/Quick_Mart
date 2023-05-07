@@ -59,26 +59,20 @@ let shopItemsData = [
       price: 40,
       img: "images/vegetable/ginger.avif",
     },
+    {
+      id: "Greenchili",
+      name: "Green Chili",
+      price: 20,
+      img: "images/vegetable/greenchili.avif",
+    },
+    {
+      id: "Uchhe",
+      name: "Uchhe",
+      price: 20,
+      img: "images/vegetable/Uchhe.avif",
+    },
   ];
 
-
-//             <div class="box">
-//                 <img src="images/vegetable/green chili.avif" alt="potato">
-//                 <span>Green Chili</span>
-//                 <h3 class="price">₹20<span>/100g</span>
-//                     <h3>
-//                         <i class='bx bx-cart'></i>
-//                         <i class='bx bx-heart'></i>
-//             </div>
-
-//             <div class="box">
-//                 <img src="images/vegetable/Uchhe.avif" alt="potato">
-//                 <span>Uchhe</span>
-//                 <h3 class="price">₹20<span>/200g</span>
-//                     <h3>
-//                         <i class='bx bx-cart'></i>
-//                         <i class='bx bx-heart'></i>
-//             </div>
 
 //             <div class="box">
 //                 <img src="images/vegetable/mushroom.avif" alt="potato">
